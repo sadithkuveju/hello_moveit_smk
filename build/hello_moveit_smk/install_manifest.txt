@@ -1,0 +1,17 @@
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/lib/hello_moveit_smk/hello_moveit_smk
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/launch/sample_reduced.launch.py
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/package_run_dependencies/hello_moveit_smk
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/parent_prefix_path/hello_moveit_smk
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/ament_prefix_path.sh
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/ament_prefix_path.dsv
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/path.sh
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/path.dsv
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.bash
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.sh
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.zsh
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.dsv
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/package.dsv
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/packages/hello_moveit_smk
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/cmake/hello_moveit_smkConfig.cmake
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/cmake/hello_moveit_smkConfig-version.cmake
+/home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/package.xml

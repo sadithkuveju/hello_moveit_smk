@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000659] (hello_moveit_smk) JobQueued: {'identifier': 'hello_moveit_smk', 'dependencies': OrderedDict()}
+[0.000702] (hello_moveit_smk) JobStarted: {'identifier': 'hello_moveit_smk'}
+[0.099903] (-) TimerEvent: {}
+[0.134372] (hello_moveit_smk) JobProgress: {'identifier': 'hello_moveit_smk', 'progress': 'cmake'}
+[0.135107] (hello_moveit_smk) Command: {'cmd': ['/usr/bin/cmake', '/home/bfh/hello_moveit_smk', '-DCMAKE_INSTALL_PREFIX=/home/bfh/hello_moveit_smk/install/hello_moveit_smk'], 'cwd': '/home/bfh/hello_moveit_smk/build/hello_moveit_smk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'bfh'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/bfh/ws_moveit2/install/moveit_visual_tools/lib:/home/bfh/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/bfh/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/bfh/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/bfh/ws_moveit2/install/moveit_task_constructor_core/lib:/home/bfh/ws_moveit2/install/moveit_ros_control_interface/lib:/home/bfh/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/bfh/ws_moveit2/install/moveit_setup_assistant/lib:/home/bfh/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/bfh/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/bfh/ws_moveit2/install/moveit_setup_controllers/lib:/home/bfh/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/bfh/ws_moveit2/install/moveit_setup_framework/lib:/home/bfh/ws_moveit2/install/moveit_servo/lib:/home/bfh/ws_moveit2/install/moveit_ros_visualization/lib:/home/bfh/ws_moveit2/install/moveit_hybrid_planning/lib:/home/bfh/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/bfh/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/bfh/ws_moveit2/install/moveit_ros_warehouse/lib:/home/bfh/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/bfh/ws_moveit2/install/moveit_ros_perception/lib:/home/bfh/ws_moveit2/install/moveit_ros_move_group/lib:/home/bfh/ws_moveit2/install/moveit_planners_ompl/lib:/home/bfh/ws_moveit2/install/moveit_ros_planning/lib:/home/bfh/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/bfh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/bfh/ws_moveit2/install/moveit_planners_chomp/lib:/home/bfh/ws_moveit2/install/moveit_kinematics/lib:/home/bfh/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/bfh/ws_moveit2/install/chomp_motion_planner/lib:/home/bfh/ws_moveit2/install/moveit_core/lib:/home/bfh/ws_moveit2/install/srdfdom/lib:/home/bfh/ws_moveit2/install/rviz_marker_tools/lib:/home/bfh/ws_moveit2/install/rosparam_shortcuts/lib:/home/bfh/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bfh'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2c3969fa4b57e915abdd6cdf6603d46f'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/bfh/ws_moveit2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'bfh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/bfh/anaconda3/bin:/home/bfh/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pc:@/tmp/.ICE-unix/1450,unix/pc:/tmp/.ICE-unix/1450'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/deeeeb2d_6612_4f81_aeb5_bb5d2f81fe0c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/bfh/ws_moveit2/install/moveit_runtime:/home/bfh/ws_moveit2/install/moveit2_tutorials:/home/bfh/ws_moveit2/install/moveit:/home/bfh/ws_moveit2/install/moveit_planners:/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner:/home/bfh/ws_moveit2/install/moveit_visual_tools:/home/bfh/ws_moveit2/install/moveit_task_constructor_visualization:/home/bfh/ws_moveit2/install/moveit_task_constructor_demo:/home/bfh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/bfh/ws_moveit2/install/moveit_task_constructor_core:/home/bfh/ws_moveit2/install/moveit_ros_control_interface:/home/bfh/ws_moveit2/install/moveit_plugins:/home/bfh/ws_moveit2/install/moveit_simple_controller_manager:/home/bfh/ws_moveit2/install/moveit_setup_assistant:/home/bfh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/bfh/ws_moveit2/install/moveit_setup_core_plugins:/home/bfh/ws_moveit2/install/moveit_setup_controllers:/home/bfh/ws_moveit2/install/moveit_setup_app_plugins:/home/bfh/ws_moveit2/install/moveit_setup_framework:/home/bfh/ws_moveit2/install/moveit_servo:/home/bfh/ws_moveit2/install/moveit_ros:/home/bfh/ws_moveit2/install/moveit_ros_visualization:/home/bfh/ws_moveit2/install/moveit_hybrid_planning:/home/bfh/ws_moveit2/install/hello_moveit:/home/bfh/ws_moveit2/install/moveit_ros_planning_interface:/home/bfh/ws_moveit2/install/moveit_ros_benchmarks:/home/bfh/ws_moveit2/install/moveit_ros_warehouse:/home/bfh/ws_moveit2/install/moveit_ros_robot_interaction:/home/bfh/ws_moveit2/install/moveit_ros_perception:/home/bfh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/bfh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/bfh/ws_moveit2/install/moveit_ros_move_group:/home/bfh/ws_moveit2/install/moveit_planners_ompl:/home/bfh/ws_moveit2/install/moveit_ros_planning:/home/bfh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/bfh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/bfh/ws_moveit2/install/moveit_planners_chomp:/home/bfh/ws_moveit2/install/moveit_kinematics:/home/bfh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/bfh/ws_moveit2/install/chomp_motion_planner:/home/bfh/ws_moveit2/install/moveit_core:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/srdfdom:/home/bfh/ws_moveit2/install/rviz_marker_tools:/home/bfh/ws_moveit2/install/rosparam_shortcuts:/home/bfh/ws_moveit2/install/moveit_task_constructor_msgs:/home/bfh/ws_moveit2/install/moveit_resources_prbt_support:/home/bfh/ws_moveit2/install/moveit_resources:/home/bfh/ws_moveit2/install/moveit_resources_pr2_description:/home/bfh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/bfh/ws_moveit2/install/moveit_resources_panda_description:/home/bfh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/bfh/ws_moveit2/install/moveit_resources_fanuc_description:/home/bfh/ws_moveit2/install/moveit_common:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/bfh/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bfh/hello_moveit_smk/build/hello_moveit_smk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/bfh/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2c3969fa4b57e915abdd6cdf6603d46f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfh/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/bfh/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/bfh/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/bfh/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('CONDA_PREFIX', '/home/bfh/anaconda3'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/bfh/ws_moveit2/install/moveit_runtime:/home/bfh/ws_moveit2/install/moveit2_tutorials:/home/bfh/ws_moveit2/install/moveit:/home/bfh/ws_moveit2/install/moveit_planners:/home/bfh/ws_moveit2/install/pilz_industrial_motion_planner:/home/bfh/ws_moveit2/install/moveit_visual_tools:/home/bfh/ws_moveit2/install/moveit_task_constructor_visualization:/home/bfh/ws_moveit2/install/moveit_task_constructor_demo:/home/bfh/ws_moveit2/install/moveit_task_constructor_capabilities:/home/bfh/ws_moveit2/install/moveit_task_constructor_core:/home/bfh/ws_moveit2/install/moveit_ros_control_interface:/home/bfh/ws_moveit2/install/moveit_plugins:/home/bfh/ws_moveit2/install/moveit_simple_controller_manager:/home/bfh/ws_moveit2/install/moveit_setup_assistant:/home/bfh/ws_moveit2/install/moveit_setup_srdf_plugins:/home/bfh/ws_moveit2/install/moveit_setup_core_plugins:/home/bfh/ws_moveit2/install/moveit_setup_controllers:/home/bfh/ws_moveit2/install/moveit_setup_app_plugins:/home/bfh/ws_moveit2/install/moveit_setup_framework:/home/bfh/ws_moveit2/install/moveit_servo:/home/bfh/ws_moveit2/install/moveit_ros:/home/bfh/ws_moveit2/install/moveit_ros_visualization:/home/bfh/ws_moveit2/install/moveit_hybrid_planning:/home/bfh/ws_moveit2/install/hello_moveit:/home/bfh/ws_moveit2/install/moveit_ros_planning_interface:/home/bfh/ws_moveit2/install/moveit_ros_benchmarks:/home/bfh/ws_moveit2/install/moveit_ros_warehouse:/home/bfh/ws_moveit2/install/moveit_ros_robot_interaction:/home/bfh/ws_moveit2/install/moveit_ros_perception:/home/bfh/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/bfh/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/bfh/ws_moveit2/install/moveit_ros_move_group:/home/bfh/ws_moveit2/install/moveit_planners_ompl:/home/bfh/ws_moveit2/install/moveit_ros_planning:/home/bfh/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/bfh/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/bfh/ws_moveit2/install/moveit_planners_chomp:/home/bfh/ws_moveit2/install/moveit_kinematics:/home/bfh/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/bfh/ws_moveit2/install/chomp_motion_planner:/home/bfh/ws_moveit2/install/moveit_core:/home/bfh/ws_moveit2/install/srdfdom:/home/bfh/ws_moveit2/install/rviz_marker_tools:/home/bfh/ws_moveit2/install/rosparam_shortcuts:/home/bfh/ws_moveit2/install/moveit_task_constructor_msgs:/home/bfh/ws_moveit2/install/moveit_resources_prbt_support:/home/bfh/ws_moveit2/install/moveit_resources:/home/bfh/ws_moveit2/install/moveit_resources_pr2_description:/home/bfh/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/bfh/ws_moveit2/install/moveit_resources_panda_description:/home/bfh/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/bfh/ws_moveit2/install/moveit_resources_fanuc_description:/home/bfh/ws_moveit2/install/moveit_common:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.200090] (-) TimerEvent: {}
+[0.300587] (-) TimerEvent: {}
+[0.342558] (hello_moveit_smk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400794] (-) TimerEvent: {}
+[0.498525] (hello_moveit_smk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500927] (-) TimerEvent: {}
+[0.521563] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601133] (-) TimerEvent: {}
+[0.701642] (-) TimerEvent: {}
+[0.737815] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.755124] (hello_moveit_smk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.764315] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.765772] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.774017] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801820] (-) TimerEvent: {}
+[0.902332] (-) TimerEvent: {}
+[0.984823] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.002577] (hello_moveit_smk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.002937] (-) TimerEvent: {}
+[1.003164] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.003511] (hello_moveit_smk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.029885] (hello_moveit_smk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.103123] (-) TimerEvent: {}
+[1.203565] (-) TimerEvent: {}
+[1.304069] (-) TimerEvent: {}
+[1.329006] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Python3: /home/bfh/anaconda3/bin/python3 (found version "3.7.0") found components: Interpreter \n'}
+[1.404251] (-) TimerEvent: {}
+[1.498584] (hello_moveit_smk) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/home/bfh/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[1.504427] (-) TimerEvent: {}
+[1.604880] (-) TimerEvent: {}
+[1.705334] (-) TimerEvent: {}
+[1.805907] (-) TimerEvent: {}
+[1.906489] (-) TimerEvent: {}
+[1.963772] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.006660] (-) TimerEvent: {}
+[2.070265] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.080737] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.094893] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.106819] (-) TimerEvent: {}
+[2.115498] (hello_moveit_smk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.144537] (hello_moveit_smk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.206983] (-) TimerEvent: {}
+[2.307371] (-) TimerEvent: {}
+[2.407758] (-) TimerEvent: {}
+[2.508144] (-) TimerEvent: {}
+[2.608523] (-) TimerEvent: {}
+[2.708915] (-) TimerEvent: {}
+[2.809292] (-) TimerEvent: {}
+[2.909666] (-) TimerEvent: {}
+[2.977866] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[3.009830] (-) TimerEvent: {}
+[3.059361] (hello_moveit_smk) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[3.109994] (-) TimerEvent: {}
+[3.150401] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.168850] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.210196] (-) TimerEvent: {}
+[3.310570] (-) TimerEvent: {}
+[3.411045] (-) TimerEvent: {}
+[3.437662] (hello_moveit_smk) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.478716] (hello_moveit_smk) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.511204] (-) TimerEvent: {}
+[3.538857] (hello_moveit_smk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.557484] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.611371] (-) TimerEvent: {}
+[3.697950] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.703059] (hello_moveit_smk) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.711532] (-) TimerEvent: {}
+[3.753393] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.811700] (-) TimerEvent: {}
+[3.912118] (-) TimerEvent: {}
+[4.012656] (-) TimerEvent: {}
+[4.030375] (hello_moveit_smk) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[4.112819] (-) TimerEvent: {}
+[4.200260] (hello_moveit_smk) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.213000] (-) TimerEvent: {}
+[4.313386] (-) TimerEvent: {}
+[4.413779] (-) TimerEvent: {}
+[4.514171] (-) TimerEvent: {}
+[4.614578] (-) TimerEvent: {}
+[4.714958] (-) TimerEvent: {}
+[4.736930] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.815116] (-) TimerEvent: {}
+[4.915494] (-) TimerEvent: {}
+[5.015864] (-) TimerEvent: {}
+[5.116232] (-) TimerEvent: {}
+[5.216616] (-) TimerEvent: {}
+[5.235710] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.316790] (-) TimerEvent: {}
+[5.417250] (-) TimerEvent: {}
+[5.476503] (hello_moveit_smk) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[5.517408] (-) TimerEvent: {}
+[5.617787] (-) TimerEvent: {}
+[5.718190] (-) TimerEvent: {}
+[5.818608] (-) TimerEvent: {}
+[5.884224] (hello_moveit_smk) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.918782] (-) TimerEvent: {}
+[5.923891] (hello_moveit_smk) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.924205] (hello_moveit_smk) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[5.924367] (hello_moveit_smk) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[5.924511] (hello_moveit_smk) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[5.928158] (hello_moveit_smk) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[5.928481] (hello_moveit_smk) StderrLine: {'line': b'  execute_process(/home/bfh/anaconda3/bin/python3\n'}
+[5.928722] (hello_moveit_smk) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[5.928885] (hello_moveit_smk) StderrLine: {'line': b'  /home/bfh/hello_moveit_smk/package.xml\n'}
+[5.929024] (hello_moveit_smk) StderrLine: {'line': b'  /home/bfh/hello_moveit_smk/build/hello_moveit_smk/ament_cmake_core/package.cmake)\n'}
+[5.929160] (hello_moveit_smk) StderrLine: {'line': b'  returned error code 1\n'}
+[5.929295] (hello_moveit_smk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.929430] (hello_moveit_smk) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[5.929564] (hello_moveit_smk) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[5.929697] (hello_moveit_smk) StderrLine: {'line': b'  CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)\n'}
+[5.929829] (hello_moveit_smk) StderrLine: {'line': b'\n'}
+[5.929958] (hello_moveit_smk) StderrLine: {'line': b'\x1b[0m\n'}
+[5.930105] (hello_moveit_smk) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.930252] (hello_moveit_smk) StdoutLine: {'line': b'See also "/home/bfh/hello_moveit_smk/build/hello_moveit_smk/CMakeFiles/CMakeOutput.log".\n'}
+[5.952107] (hello_moveit_smk) CommandEnded: {'returncode': 1}
+[6.018874] (-) TimerEvent: {}
+[6.061152] (hello_moveit_smk) JobEnded: {'identifier': 'hello_moveit_smk', 'rc': 1}
+[6.071740] (-) EventReactorShutdown: {}

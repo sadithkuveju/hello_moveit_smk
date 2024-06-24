@@ -1,0 +1,24 @@
+[0.071s] Invoking command in '/home/bfh/hello_moveit_smk/build/hello_moveit_smk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bfh/hello_moveit_smk/build/hello_moveit_smk -- -j24 -l24
+[0.259s] [100%] Built target hello_moveit_smk
+[0.285s] Invoked command in '/home/bfh/hello_moveit_smk/build/hello_moveit_smk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/bfh/hello_moveit_smk/build/hello_moveit_smk -- -j24 -l24
+[0.436s] Invoking command in '/home/bfh/hello_moveit_smk/build/hello_moveit_smk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bfh/hello_moveit_smk/build/hello_moveit_smk
+[0.453s] -- Install configuration: ""
+[0.453s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/lib/hello_moveit_smk/hello_moveit_smk
+[0.453s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/launch
+[0.454s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/launch/sample_reduced.launch.py
+[0.454s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/package_run_dependencies/hello_moveit_smk
+[0.454s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/parent_prefix_path/hello_moveit_smk
+[0.454s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/ament_prefix_path.sh
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/ament_prefix_path.dsv
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/path.sh
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/environment/path.dsv
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.bash
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.sh
+[0.455s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.zsh
+[0.456s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/local_setup.dsv
+[0.456s] -- Installing: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/package.dsv
+[0.456s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/ament_index/resource_index/packages/hello_moveit_smk
+[0.456s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/cmake/hello_moveit_smkConfig.cmake
+[0.456s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/cmake/hello_moveit_smkConfig-version.cmake
+[0.456s] -- Up-to-date: /home/bfh/hello_moveit_smk/install/hello_moveit_smk/share/hello_moveit_smk/package.xml
+[0.458s] Invoked command in '/home/bfh/hello_moveit_smk/build/hello_moveit_smk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bfh/ws_moveit2/install/moveit_configs_utils:/home/bfh/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/bfh/hello_moveit_smk/build/hello_moveit_smk
